@@ -3,7 +3,7 @@ resource "aws_vpc" "main" {
     cidr_block = "10.0.0.0/16"
     instance_tenancy = "default"
     enable_dns_support = "true"
-    enable_dns_hostnames = "true"
+    enable_dns_hostnames = "false"
     enable_classiclink = "false"
     tags {
         Name = "main"
@@ -106,3 +106,4 @@ resource "aws_route_table_association" "main-public-3-a" {
     subnet_id = "${aws_subnet.main-public-3.id}"
     route_table_id = "${aws_route_table.main-public.id}"
 }
+
