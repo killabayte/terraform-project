@@ -1,5 +1,5 @@
 # Terraform demo project
-This is a terraform demo used in my Online Course
+This is a terraform demo
 
 ## Usage
 To use this example, you need to add a terraform.tfvars with the following content:
