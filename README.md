@@ -1,4 +1,4 @@
-# Terraform demo
+# Terraform demo project
 This is a terraform demo used in my Online Course
 
 ## Usage
